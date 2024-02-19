@@ -1,0 +1,8 @@
+{
+  "https://github.com/NYU-Processor-Design/nyu-registry.git": {
+    "HEAD": "7a6b61ca47ca041f1c6558c649cbc2ddbf11d57a"
+  },
+  "https://github.com/microsoft/vcpkg.git": {
+    "HEAD": "13bde2ff13192e1b2fdd37bd9b475c7665ae6ae5"
+  }
+}

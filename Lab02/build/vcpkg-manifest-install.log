@@ -1,0 +1,38 @@
+warning: Embedding `vcpkg-configuration` in a manifest file is an EXPERIMENTAL feature.
+Detecting compiler hash for triplet arm64-osx...
+The following packages will be built and installed:
+    catch2:arm64-osx@3.4.0 -- /Users/geoffreyguindine/.cache/vcpkg/registries/git-trees/5796c1c0513a7b49f135e8acdd1976f53e9944ea
+    nyu-cmake:arm64-osx@1.1.3 -- /Users/geoffreyguindine/.cache/vcpkg/registries/git-trees/27510d84ea5dc53cb61eb8fbe054eda8b301f089
+Restored 0 package(s) from /Users/geoffreyguindine/.cache/vcpkg/archives in 22.2 us. Use --debug to see more details.
+Installing 1/2 catch2:arm64-osx@3.4.0...
+Building catch2:arm64-osx@3.4.0...
+-- Installing port from location: /Users/geoffreyguindine/.cache/vcpkg/registries/git-trees/5796c1c0513a7b49f135e8acdd1976f53e9944ea
+-- Using cached catchorg-Catch2-v3.4.0.tar.gz.
+-- Cleaning sources at /Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-src/buildtrees/catch2/src/v3.4.0-a183b6a984.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-src/downloads/catchorg-Catch2-v3.4.0.tar.gz
+-- Applying patch fix-install-path.patch
+-- Using source at /Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-src/buildtrees/catch2/src/v3.4.0-a183b6a984.clean
+-- Found external ninja('1.11.1').
+-- Configuring arm64-osx
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Fixing pkgconfig file: /Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-src/packages/catch2_arm64-osx/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: /Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-src/packages/catch2_arm64-osx/lib/pkgconfig/catch2.pc
+CMake Error at scripts/cmake/vcpkg_find_acquire_program.cmake:166 (message):
+  Could not find pkg-config.  Please install it via your package manager:
+
+      brew install pkg-config
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_fixup_pkgconfig.cmake:203 (vcpkg_find_acquire_program)
+  /Users/geoffreyguindine/.cache/vcpkg/registries/git-trees/5796c1c0513a7b49f135e8acdd1976f53e9944ea/portfile.cmake:25 (vcpkg_fixup_pkgconfig)
+  scripts/ports.cmake:170 (include)
+
+
+error: building catch2:arm64-osx failed with: BUILD_FAILED
+Elapsed time to handle catch2:arm64-osx: 12 s
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+  https://github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+catch2
+You can submit a new issue at:
+  https://github.com/microsoft/vcpkg/issues/new?title=[catch2]+Build+error+on+arm64-osx&body=Copy+issue+body+from+%2FUsers%2Fgeoffreyguindine%2FDesktop%2FProcDesign%2FLabs%2FLab02%2Fonboarding-lab-2%2Fbuild%2Fvcpkg_installed%2Fvcpkg%2Fissue_body.md
+

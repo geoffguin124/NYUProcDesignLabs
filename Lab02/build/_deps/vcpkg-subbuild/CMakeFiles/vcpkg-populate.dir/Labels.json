@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-build.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-download.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-install.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-test.rule"
+		},
+		{
+			"file" : "/Users/geoffreyguindine/Desktop/ProcDesign/Labs/Lab02/onboarding-lab-2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vcpkg-populate"
+		],
+		"name" : "vcpkg-populate"
+	}
+}
